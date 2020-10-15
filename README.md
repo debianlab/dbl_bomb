@@ -1,6 +1,6 @@
 # dbl_bomb
 
-<h3>Установка</h3>:
+<h3>Установка:</h3>
 
 <i>git clone https://github.com/dbl_bomb</i>
 
